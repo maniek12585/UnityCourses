@@ -53,6 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\Block.cs" />
+     <Compile Include="Assets\Scripts\GameSession.cs" />
+     <Compile Include="Assets\Scripts\Level.cs" />
+     <Compile Include="Assets\Scripts\LooseCollider.cs" />
+     <Compile Include="Assets\Scripts\Paddle.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -109,19 +115,19 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>H:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -325,13 +331,13 @@
  <HintPath>H:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>G:/Unity 2D Course/Block_Breaker/Block Breaker/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>G:/GitRepos/UnityCourses/Unity_2D_Course/Block_Breaker/Block Breaker/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>H:/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
