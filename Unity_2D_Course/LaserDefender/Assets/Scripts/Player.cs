@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
         Fire();
     }
 
+    public int GetPlayerHealth() {return health;}
     private void Fire()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -99,6 +100,7 @@ public class Player : MonoBehaviour
 
      private void Die() 
     {
+        FindObjectOfType<Level>().LoadGameOverScene();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSFX, mainCamera.transform.position, deathSoundVolume );
 
